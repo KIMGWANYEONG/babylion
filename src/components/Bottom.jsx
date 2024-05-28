@@ -1,9 +1,13 @@
 const Bottom = () => {
   return (
     <div className="relative">
-      <img className="p-2 w-[3300px]" src="/images/Middle.png" alt="Logo" />
       <img
-        className="relative w-[3300px]"
+        className="bg-[#DFDCC4] p-2 w-[3300px]"
+        src="/images/Middle.png"
+        alt="Logo"
+      />
+      <img
+        className="relative w-full"
         src="/images/bottomBg.svg"
         alt="bottomBg"
       />
@@ -19,10 +23,13 @@ const Bottom = () => {
         src="/images/how-to-img.png"
         alt="how-to-img"
       />
-      <div className="absolute bottom-20">
-        SEALANA 구매 방법... 위젯으로 구매: 지갑을 구매 위젯에 연결하고 SOL을
-        사용하여 $SEAL을 구매하세요. SOL 전송을 통해 구매: 또는 탈중앙화 지갑에
-        보유하고 있는 SOL을 다음 주소로 전송해서 구매할 수도 있습니다:
+      <div className="absolute bottom-80 text-white font-['HUFairy170'] text-4xl">
+        SEALANA 구매 방법...
+      </div>
+      <div className="absolute bottom-60 text-white font-['HUFairy170'] text-2xl">
+        위젯으로 구매: 지갑을 구매 위젯에 연결하고 SOL을 사용하여 $SEAL을
+        구매하세요. SOL 전송을 통해 구매: 또는 탈중앙화 지갑에 보유하고 있는
+        SOL을 다음 주소로 전송해서 구매할 수도 있습니다:
         DJ15ZYXqUNMYJ3hL7z4ciSaSFAw5cbos3YjGpdvwmF6c
       </div>
     </div>

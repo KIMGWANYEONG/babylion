@@ -5,7 +5,7 @@ import Bottom from "./components/Bottom";
 
 const App = () => {
   return (
-    <div className="font-pretendard text-techit-gray-300">
+    <div className="font-pretendard">
       <Header />
       <BackGround />
       <Bottom />
